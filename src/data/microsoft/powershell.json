@@ -1,0 +1,5 @@
+{
+  "name": "PowerShell Core",
+  "armVersion": true,
+  "link": "https://github.com/PowerShell/PowerShell"
+}
