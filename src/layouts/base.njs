@@ -13,7 +13,7 @@
         <meta name="twitter:description" content="Tracking ARM versions of popular Windows applications">
         <meta name="twitter:site" content="@dstaley">
         <meta name="twitter:creator" content="@dstaley">
-        <meta name="twitter:image:src" content="https://iswindowsonarmready.netlify.app/twittercard.png">
+        <meta name="twitter:image" content="https://iswindowsonarmready.netlify.app/twittercard.png">
         <meta name="og:title" content="Is Windows on ARM Ready?">
         <meta name="og:description" content="Tracking ARM versions of popular Windows applications">
         <meta name="og:image" content="https://iswindowsonarmready.netlify.app/opengraph.png">
