@@ -8,7 +8,7 @@ In order to be included in the listings, an application must (1) be something th
 
 ## Acceptance Criteria
 
-In order to be marked as having an ARM version, an application must (1) have an ARM64 version (2) that is officially supported and (3) available via the same channel as the x86 version. Forks, nightly builds, and hidden downloads do not qualify.
+In order to be marked as having an ARM version, an application must (1) have an ARM64 version (2) that is officially supported, (3) available via the same channel as the x86 version, and (4) does not require any additional steps to get the ARM64 version versus the x86 version. Forks, nightly builds, and hidden downloads do not qualify.
 
 ## Entry Format
 
