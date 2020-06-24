@@ -8,7 +8,7 @@
         <meta name="description" content="Tracking ARM versions of popular Windows applications">
         <meta itemprop="name" content="Is Windows on ARM Ready?">
         <meta itemprop="description" content="Tracking ARM versions of popular Windows applications">
-        <meta name="twitter:card" content="summary">
+        <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:title" content="Is Windows on ARM Ready?">
         <meta name="twitter:description" content="Tracking ARM versions of popular Windows applications">
         <meta name="twitter:site" content="@dstaley">
