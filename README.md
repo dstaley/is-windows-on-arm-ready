@@ -10,6 +10,8 @@ In order to be included in the listings, an application must (1) be something th
 
 In order to be marked as having an ARM version, an application must (1) have an ARM64 version (2) that is officially supported, (3) available via the same channel as the x86 version, and (4) does not require any additional steps to get the ARM64 version versus the x86 version. Forks, nightly builds, and hidden downloads do not qualify.
 
+Exceptions to the above criteria will be made if (5) the default x86 installer actually installs the ARM64 version, or (6) the ARM64 version is easily accessible from the primary download page.
+
 ## Entry Format
 
 All entries are JSON files with the following format:
