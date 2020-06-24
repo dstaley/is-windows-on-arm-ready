@@ -14,12 +14,13 @@
         <meta name="twitter:site" content="@dstaley">
         <meta name="twitter:creator" content="@dstaley">
         <meta name="twitter:image" content="https://iswindowsonarmready.netlify.app/twittercard.png">
-        <meta name="og:title" content="Is Windows on ARM Ready?">
-        <meta name="og:description" content="Tracking ARM versions of popular Windows applications">
-        <meta name="og:image" content="https://iswindowsonarmready.netlify.app/opengraph.png">
-        <meta name="og:site_name" content="Is Windows on ARM Ready?">
-        <meta name="og:locale" content="en_US">
-        <meta name="og:type" content="website">
+        <meta property="og:title" content="Is Windows on ARM Ready?">
+        <meta property="og:description" content="Tracking ARM versions of popular Windows applications">
+        <meta property="og:url" content="https://iswindowsonarmready.netlify.app">
+        <meta property="og:image" content="https://iswindowsonarmready.netlify.app/opengraph.png">
+        <meta property="og:site_name" content="Is Windows on ARM Ready?">
+        <meta property="og:locale" content="en_US">
+        <meta property="og:type" content="website">
         <style>
             {{sass() | safe}}
         </style>
