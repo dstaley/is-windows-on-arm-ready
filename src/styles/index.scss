@@ -4,6 +4,7 @@
   --background: white;
   --foreground: #444;
   --active: rgb(243, 242, 241);
+  --meter: rgb(161, 159, 157);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -11,6 +12,7 @@
     --background: rgb(27, 26, 25);
     --foreground: rgb(243, 242, 241);
     --active: rgb(37, 36, 35);
+    --meter: rgb(41, 40, 39);
   }
 }
 
@@ -53,10 +55,24 @@ a:visited {
 
 .progress {
   display: flex;
+  align-items: center;
 
   meter {
     flex: 1;
-    height: 20px;
+    -webkit-appearence: none;
+    height: 6px;
+    border: none;
+
+    &::-webkit-meter-bar {
+      background: none;
+      background-color: var(--meter);
+      border: 0;
+      border-radius: 0;
+    }
+
+    &::-webkit-meter-optimum-value {
+      background-color: #0b6a0b;
+    }
   }
 
   p {
