@@ -1,5 +1,5 @@
 {
   "name": "VS Code",
-  "armVersion": false,
+  "armVersion": true,
   "link": "https://code.visualstudio.com/"
 }
