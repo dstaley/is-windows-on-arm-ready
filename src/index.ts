@@ -3,6 +3,7 @@ import { renderSync } from "sass";
 import fs from "fs";
 import path from "path";
 import prettier from "prettier";
+import { copy } from "fs-extra";
 
 interface Entry {
   name: string;
@@ -85,4 +86,6 @@ function sass() {
     formattedOutput,
     "utf8"
   );
+
+  await copy(path.join(process.cwd(), "src", "static"), "dist");
 })();
