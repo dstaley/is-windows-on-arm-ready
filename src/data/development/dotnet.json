@@ -1,5 +1,5 @@
 {
   "name": ".NET",
-  "armVersion": false,
+  "armVersion": true,
   "link": "https://dotnet.microsoft.com/"
 }
