@@ -1,5 +1,5 @@
 {
   "name": "Microsoft Teams",
-  "armVersion": false,
+  "armVersion": true,
   "link": "https://microsoft.com/teams"
 }
