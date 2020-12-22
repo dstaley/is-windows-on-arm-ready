@@ -1,5 +1,5 @@
 {
   "name": "Rust",
-  "armVersion": false,
+  "armVersion": true,
   "link": "https://www.rust-lang.org/"
 }
