@@ -1,6 +1,6 @@
 {
   "name": "Zoom",
   "category": "applications",
-  "armVersion": false,
+  "armVersion": true,
   "link": "https://zoom.us/"
 }
