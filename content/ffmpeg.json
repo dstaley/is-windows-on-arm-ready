@@ -1,0 +1,6 @@
+{
+  "name": "FFmpeg",
+  "category": "applications",
+  "armVersion": false,
+  "link": "https://ffmpeg.org/"
+}

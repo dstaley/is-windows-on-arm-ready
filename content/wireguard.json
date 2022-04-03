@@ -1,0 +1,6 @@
+{
+  "name": "WireGuard",
+  "category": "applications",
+  "armVersion": true,
+  "link": "https://www.wireguard.com/"
+}

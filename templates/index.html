@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{%- block main -%}
+    <main class="container">{{ section.content | safe -}}</main>
+    <footer>
+        <p>Made with ❤️ by
+            <a href="https://dstaley.com">Dylan Staley</a>, who dreams of a full ARM64 future.
+        </p>
+        <p>
+            <a href="https://github.com/dstaley/is-windows-on-arm-ready">View on GitHub</a>
+        </p>
+    </footer>
+{% endblock %}

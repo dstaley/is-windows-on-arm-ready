@@ -14,12 +14,17 @@ Exceptions to the above criteria will be made if (5) the default x86 installer a
 
 ## Entry Format
 
-All entries are JSON files with the following format:
+All entries are JSON files stored in `content` with the following format:
 
 ```json
 {
   "name": "<name of application>",
+  "category": "<one of 'microsoft', 'applications', or 'development'>",
   "armVersion": false, // or true
   "link": "<url to product page>"
 }
 ```
+
+## Attributions
+
+This site is built using [Zola](https://www.getzola.org/). The favicon is from the [Twemoji](https://twemoji.twitter.com/) emoji set.

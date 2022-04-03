@@ -1,0 +1,6 @@
+{
+  "name": "VLC Media Player",
+  "category": "applications",
+  "armVersion": true,
+  "link": "https://www.videolan.org/vlc/"
+}
