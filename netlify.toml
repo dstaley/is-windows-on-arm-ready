@@ -1,3 +1,10 @@
 [build]
-    publish = "dist"
-    command = "npm run build"
+publish = "public"
+command = "zola build"
+
+[build.environment]
+# Set the version name that you want to use and Netlify will automatically use it.
+ZOLA_VERSION = "0.15.3"
+
+[context.deploy-preview]
+command = "zola build --base-url $DEPLOY_PRIME_URL"

@@ -1,0 +1,6 @@
+{
+  "name": "Windows Subsystem for Linux",
+  "category": "microsoft",
+  "armVersion": true,
+  "link": "https://docs.microsoft.com/en-us/windows/wsl/about"
+}
