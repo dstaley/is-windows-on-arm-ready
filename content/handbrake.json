@@ -1,6 +1,6 @@
 {
   "name": "HandBrake",
   "category": "applications",
-  "armVersion": false,
+  "armVersion": true,
   "link": "https://handbrake.fr/"
 }
