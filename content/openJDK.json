@@ -1,0 +1,6 @@
+{
+  "name": "OpenJDK (Microsoft)",
+  "category": "development",
+  "armVersion": true,
+  "link": "https://www.microsoft.com/openjdk"
+}
