@@ -1,6 +1,6 @@
 {
   "name": "Microsoft Office",
   "category": "microsoft",
-  "armVersion": false,
+  "armVersion": true,
   "link": "https://microsoft.com/office"
 }
