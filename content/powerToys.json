@@ -1,6 +1,6 @@
 {
   "name": "PowerToys",
   "category": "microsoft",
-  "armVersion": false,
+  "armVersion": true,
   "link": "https://github.com/microsoft/PowerToys"
 }
