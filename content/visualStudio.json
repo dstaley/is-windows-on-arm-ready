@@ -1,6 +1,6 @@
 {
   "name": "Visual Studio",
   "category": "microsoft",
-  "armVersion": false,
+  "armVersion": true,
   "link": "https://visualstudio.microsoft.com/"
 }
