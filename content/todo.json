@@ -1,6 +1,6 @@
 {
   "name": "Microsoft To Do",
   "category": "microsoft",
-  "armVersion": false,
+  "armVersion": true,
   "link": "https://todo.microsoft.com"
 }
