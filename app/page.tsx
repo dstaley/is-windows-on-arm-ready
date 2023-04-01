@@ -71,7 +71,7 @@ export default async function Page() {
       </main>
       <footer>
         <p>
-          Made with ❤️ by
+          Made with ❤️ by&#32;
           <a href="https://dstaley.com">Dylan Staley</a>, who dreams of a full
           ARM64 future.
         </p>
