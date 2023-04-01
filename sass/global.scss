@@ -1,0 +1,34 @@
+:root {
+  --background: white;
+  --foreground: #444;
+  --active: rgb(243, 242, 241);
+  --meter: rgb(161, 159, 157);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: rgb(27, 26, 25);
+    --foreground: rgb(243, 242, 241);
+    --active: rgb(37, 36, 35);
+    --meter: rgb(41, 40, 39);
+  }
+}
+
+html,
+body {
+  margin: 40px 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+a,
+a:visited {
+  color: var(--foreground);
+}
+
+footer {
+  margin-top: 40px;
+  text-align: center;
+}
