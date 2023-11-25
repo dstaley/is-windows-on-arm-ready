@@ -15,6 +15,10 @@ export default function RootLayout({
 }
 
 export const metadata = {
-  title: "Home",
-  description: "Welcome to Next.js",
+  metadataBase:
+    process.env.VERCEL_ENV === "production"
+      ? new URL("https://is-windows-on-arm-ready.vercel.app")
+      : process.env.VERCEL_ENV === "preview"
+      ? new URL(`https://${process.env.VERCEL_URL}`)
+      : new URL(`http://localhost:${process.env.PORT || 3000}`),
 };
