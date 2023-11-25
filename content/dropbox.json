@@ -1,6 +1,6 @@
 {
   "name": "Dropbox",
   "category": "applications",
-  "armVersion": false,
+  "armVersion": true,
   "link": "https://www.dropbox.com/"
 }
