@@ -1,11 +1,11 @@
 import { readFile } from "node:fs/promises";
 import { glob } from "glob";
-import s from "../sass/style.module.scss";
+import type { Metadata } from "next";
 import type { Entry, CategorizedData } from "../types";
 import ProgressGrid from "../components/ProgressGrid";
-import type { Metadata } from "next";
+import s from "../sass/style.module.scss";
 
-async function getData() {
+async function getData(): Promise<CategorizedData> {
   const dataFilePaths = await glob("./content/*.json");
   const files = await Promise.all(
     dataFilePaths.map(async (p) => {
@@ -23,7 +23,7 @@ async function getData() {
       microsoft: [],
       applications: [],
       development: [],
-    } as CategorizedData
+    }
   );
 }
 
@@ -65,15 +65,14 @@ export default async function Page() {
           Please do! You can file an issue on{" "}
           <a href="https://github.com/dstaley/is-windows-on-arm-ready">
             GitHub
-          </a>{" "}
-          or <a href="https://twitter.com/dstaley">send me a tweet</a>.
+          </a>
+          .
         </p>
       </main>
       <footer>
         <p>
-          Made with ❤️ by
-          <a href="https://dstaley.com">Dylan Staley</a>, who dreams of a full
-          ARM64 future.
+          Made with ❤️ by <a href="https://dstaley.com">Dylan Staley</a>, who
+          dreams of a full ARM64 future.
         </p>
         <p>
           <a href="https://github.com/dstaley/is-windows-on-arm-ready">
@@ -88,24 +87,17 @@ export default async function Page() {
 export const metadata: Metadata = {
   title: "Is Windows on ARM ready?",
   description: "Tracking ARM versions of popular Windows applications",
-  icons: "/laptop.png",
   twitter: {
     title: "Is Windows on ARM ready?",
     description: "Tracking ARM versions of popular Windows applications",
     card: "summary_large_image",
     site: "@dstaley",
     creator: "@dstaley",
-    images: process.env.VERCEL
-      ? `https://${process.env.VERCEL_URL}/twittercard.png`
-      : undefined,
   },
   openGraph: {
     title: "Is Windows on ARM ready?",
     description: "Tracking ARM versions of popular Windows applications",
-    images: process.env.VERCEL
-      ? `https://${process.env.VERCEL_URL}/opengraph.png`
-      : undefined,
-    url: process.env.VERCEL ? `https://${process.env.VERCEL_URL}/` : undefined,
+    url: "/",
     siteName: "Is Windows on ARM ready?",
     locale: "en_US",
     type: "website",
