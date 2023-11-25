@@ -1,6 +1,6 @@
 {
   "name": "Node.js",
   "category": "development",
-  "armVersion": false,
+  "armVersion": true,
   "link": "https://nodejs.org/"
 }

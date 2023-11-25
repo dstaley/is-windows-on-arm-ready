@@ -1,6 +1,6 @@
 {
   "name": "JetBrains IntelliJ IDEA",
   "category": "applications",
-  "armVersion": false,
+  "armVersion": true,
   "link": "https://www.jetbrains.com/idea/"
 }

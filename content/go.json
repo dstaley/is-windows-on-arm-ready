@@ -1,6 +1,6 @@
 {
   "name": "Go",
   "category": "development",
-  "armVersion": false,
+  "armVersion": true,
   "link": "https://golang.org/"
 }
